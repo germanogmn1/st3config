@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Breakers.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -7,6 +7,7 @@
 		"*.pyo",
 		"*.exe",
 		"*.dll",
+		"*.obj",
 		"*.o",
 		"*.a",
 		"*.lib",
@@ -21,7 +22,18 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		"*.log"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"tmp",
+		"__pycache__",
+		".venv"
 	],
 	"font_face": "Anonymous Pro",
 	"font_options":
@@ -46,6 +58,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 4,
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"tree_animation_enabled": false
 }
